@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Leo Ryu&#39;s Blog</title>
+    <link>https://leoryu.github.io/categories/</link>
+    <description>Recent content in Categories on Leo Ryu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 May 2020 22:55:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://leoryu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tech</title>
+      <link>https://leoryu.github.io/categories/tech/</link>
+      <pubDate>Wed, 27 May 2020 22:55:00 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

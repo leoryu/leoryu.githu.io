@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTTP on Leo Ryu&#39;s Blog</title>
+    <link>https://leoryu.github.io/tags/http/</link>
+    <description>Recent content in HTTP on Leo Ryu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2020 21:55:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://leoryu.github.io/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>服务端推送技术</title>
+      <link>https://leoryu.github.io/server-push/</link>
+      <pubDate>Tue, 26 May 2020 21:55:00 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/server-push/</guid>
+      <description>&lt;p&gt;在现实世界中，我们可能会服务端在发生数据变化后能够以较低的延迟通知到客户端，这是我们就需要一个服务端推送方案。本文将介绍一些服务器端推送方案的思路，并逐一分析其优缺点。这些方案包含短轮询、长轮询、WebSocket、SSE和注册回调。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

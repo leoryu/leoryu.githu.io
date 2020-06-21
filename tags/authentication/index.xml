@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>authentication on Leo Ryu&#39;s Blog</title>
+    <link>https://leoryu.github.io/tags/authentication/</link>
+    <description>Recent content in authentication on Leo Ryu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 May 2020 22:55:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://leoryu.github.io/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kubernetes中的认证</title>
+      <link>https://leoryu.github.io/kubernetes-authentication/</link>
+      <pubDate>Wed, 27 May 2020 22:55:00 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/kubernetes-authentication/</guid>
+      <description>&lt;p&gt;来源：https://jimmysong.io/kubernetes-handbook/guide/authentication.html&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://thenewstack.io/kubernetes-single-sign-one-less-identity/&#34;&gt;https://thenewstack.io/kubernetes-single-sign-one-less-identity/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kubernetes 集群中包含两类用户：一类是由 Kubernetes 管理的 service account，另一类是普通用户。&lt;/p&gt;
+&lt;p&gt;普通用户被假定为由外部独立服务管理。管理员分发私钥，用户存储（如 Keystone 或 Google 帐户），甚至包含用户名和密码列表的文件。在这方面，Kubernetes 没有代表普通用户帐户的对象。无法通过 API 调用的方式向集群中添加普通用户。&lt;/p&gt;
+&lt;p&gt;相对的，service account 是由 Kubernetes API 管理的帐户。它们都绑定到了特定的 namespace，并由 API server 自动创建，或者通过 API 调用手动创建。Service account 关联了一套凭证，存储在 Secret，这些凭证同时被挂载到 pod 中，从而允许 pod 与 kubernetes API 之间的调用。&lt;/p&gt;
+&lt;p&gt;API 请求被绑定到普通用户或 serivce account 上，或者作为匿名请求对待。这意味着集群内部或外部的每个进程，无论从在工作站上输入 kubectl 的人类用户到节点上的 kubelet，到控制平面的成员，都必须在向 API Server 发出请求时进行身份验证，或者被视为匿名用户。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

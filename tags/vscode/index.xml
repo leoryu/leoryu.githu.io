@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vscode on Leo Ryu&#39;s Blog</title>
+    <link>https://leoryu.github.io/tags/vscode/</link>
+    <description>Recent content in vscode on Leo Ryu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Jun 2019 23:07:55 +0800</lastBuildDate>
+    
+	<atom:link href="https://leoryu.github.io/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker &#43; VSCode &#43; Windows搭建舒适开发环境</title>
+      <link>https://leoryu.github.io/dev-with-docker/</link>
+      <pubDate>Thu, 13 Jun 2019 23:07:55 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/dev-with-docker/</guid>
+      <description>&lt;p&gt;最近VSCode的稳定版本已经开始支持Remote Development，这让笔者看到了远程开发更多的可能性。Linux的图形界面一直让人不是很满意（等待Wayland时代的到来），RD的出现让笔者对使用Windows界面在远端Linux环境开发产生了兴趣。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Leo Ryu&#39;s Blog</title>
+    <link>https://leoryu.github.io/tags/docker/</link>
+    <description>Recent content in docker on Leo Ryu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jun 2019 20:26:32 +0800</lastBuildDate>
+    
+	<atom:link href="https://leoryu.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kubernetes in Docker</title>
+      <link>https://leoryu.github.io/introduction-of-kind/</link>
+      <pubDate>Sun, 23 Jun 2019 20:26:32 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/introduction-of-kind/</guid>
+      <description>&lt;p&gt;Installing Kubernetes locally is an annoying task. Without multiple bare machines, you need some extra storage and memory for VMs. Besides, you have to spend time on installation and dependency problems.If you want a Kubernetes cluster just for Dev/Test, it&amp;rsquo;s a nightmare.&lt;/p&gt;
+&lt;p&gt;So here is a problem with Kubernetes, the Standard Kubernetes is great for production, but not suitable for building &amp;ldquo;temporarily&amp;rdquo;. In order to find a solution, this paper will introduce a project, kind, which makes it possible to run Kubernetes cluster in Docker.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker &#43; VSCode &#43; Windows搭建舒适开发环境</title>
+      <link>https://leoryu.github.io/dev-with-docker/</link>
+      <pubDate>Thu, 13 Jun 2019 23:07:55 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/dev-with-docker/</guid>
+      <description>&lt;p&gt;最近VSCode的稳定版本已经开始支持Remote Development，这让笔者看到了远程开发更多的可能性。Linux的图形界面一直让人不是很满意（等待Wayland时代的到来），RD的出现让笔者对使用Windows界面在远端Linux环境开发产生了兴趣。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker镜像的无中生有：使用scratch制作自定义最小镜像</title>
+      <link>https://leoryu.github.io/build-docker-image-from-scratch/</link>
+      <pubDate>Tue, 19 Mar 2019 20:53:06 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/build-docker-image-from-scratch/</guid>
+      <description>&lt;p&gt;针对如何制作尽量小的镜像问题，笔者在这里介绍一种用”空镜像“制作自定义最小镜像的方案。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>协程代替进程：单容器Go语言应用提供多服务的解决方案</title>
+      <link>https://leoryu.github.io/move-thread-to-coroutine/</link>
+      <pubDate>Wed, 20 Feb 2019 21:27:46 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/move-thread-to-coroutine/</guid>
+      <description>1. Docker容器内运行多个服务 Docker推荐开发者每个容器内运行一个服务/守护进程，以区分关注的区域。因此，并没有针对容器内运行多进程的场景做过多的设计。例如生命周期上，Docker只关注容器内的1号进程，1号进程以外的生命周期需要开发者去维护。
+但在实际开发中，因为各种原因开发者们确实会遇到在单个容器内运行多服务的开发场景。目前解决这一问题的通用解决方案大致分为两种：
+ 写shell脚本运行多进程 使用supervisor、foreman、goreman等多进程管理程序  但是这些通用解决方案都有一些缺陷，如依赖过多、占据容器内1号进程难以“优雅关闭”、造成资源浪费等。
+2. 巧用Go语言的协程 Go语言有一个先天优势：可以用成本（开发成本、计算成本）极小的协程来代替线程。
+而笔者在学习Gin框架时发现，Go的协程也可以代替进程，从而实现“单进程多服务”的效果。
+而如果实现单进程多服务，则可以在几乎没有任何副作用的前提下实现单容器内运行多个服务。
+该方案的Gin框架实现的代码可以参考multiple-service，这里笔者以日常使用的Echo框架实现一个多web服务，代码如下：
+package main import ( &amp;quot;log&amp;quot; &amp;quot;net/http&amp;quot; &amp;quot;time&amp;quot; &amp;quot;golang.org/x/sync/errgroup&amp;quot; &amp;quot;github.com/labstack/echo&amp;quot; ) var g errgroup.Group func main() { server1 := &amp;amp;http.Server{ Addr: &amp;quot;:8080&amp;quot;, Handler: router1(), ReadTimeout: 5 * time.Second, WriteTimeout: 10 * time.Second, } server2 := &amp;amp;http.Server{ Addr: &amp;quot;:8081&amp;quot;, Handler: router2(), ReadTimeout: 5 * time.Second, WriteTimeout: 10 * time.Second, } g.Go(func() error { return server1.ListenAndServe() }) g.Go(func() error { return server2.</description>
+    </item>
+    
+    <item>
+      <title>压缩界“黑科技”UPX：把可执行文件压缩至原有的30%</title>
+      <link>https://leoryu.github.io/introduction-of-upx/</link>
+      <pubDate>Sat, 19 Jan 2019 19:40:24 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/introduction-of-upx/</guid>
+      <description>&lt;p&gt;笔者在这里介绍一个工具，UPX，该工具可以在不影响程序运行时功能和性能的前提下，将可执行文件压缩至原体积的30%-50%。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

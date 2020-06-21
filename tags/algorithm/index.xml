@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algorithm on Leo Ryu&#39;s Blog</title>
+    <link>https://leoryu.github.io/tags/algorithm/</link>
+    <description>Recent content in algorithm on Leo Ryu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Sep 2019 21:55:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://leoryu.github.io/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Go的算法实现]合并两个排序的链表</title>
+      <link>https://leoryu.github.io/sword017-merge-2-sorted-list/</link>
+      <pubDate>Sun, 01 Sep 2019 21:55:00 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword017-merge-2-sorted-list/</guid>
+      <description>&lt;p&gt;剑指Offer中问题17的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]反转列表</title>
+      <link>https://leoryu.github.io/sword016-reverse-node-list/</link>
+      <pubDate>Sat, 31 Aug 2019 22:47:00 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword016-reverse-node-list/</guid>
+      <description>&lt;p&gt;剑指Offer中问题16的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]链表中倒数第k个结点</title>
+      <link>https://leoryu.github.io/sword015-cont-donw-to-k-node/</link>
+      <pubDate>Fri, 30 Aug 2019 22:00:34 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword015-cont-donw-to-k-node/</guid>
+      <description>&lt;p&gt;剑指Offer中问题15的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]调整数组顺序使奇数位于偶数前面</title>
+      <link>https://leoryu.github.io/sword014-adjust-order-of-odd-and-even/</link>
+      <pubDate>Fri, 02 Aug 2019 23:30:34 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword014-adjust-order-of-odd-and-even/</guid>
+      <description>&lt;p&gt;剑指Offer中问题14的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]打印1到最大的N位数</title>
+      <link>https://leoryu.github.io/sword012-print-one-to-max-number-of-dig-n/</link>
+      <pubDate>Thu, 01 Aug 2019 21:30:34 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword012-print-one-to-max-number-of-dig-n/</guid>
+      <description>&lt;p&gt;剑指Offer中问题12的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]数值的整数次方</title>
+      <link>https://leoryu.github.io/sword011-float-to-the-power-of-int/</link>
+      <pubDate>Fri, 26 Jul 2019 22:40:34 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword011-float-to-the-power-of-int/</guid>
+      <description>&lt;p&gt;剑指Offer中问题11的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]二进制中1的个数</title>
+      <link>https://leoryu.github.io/sword010-one-in-binary/</link>
+      <pubDate>Wed, 17 Jul 2019 21:40:24 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword010-one-in-binary/</guid>
+      <description>&lt;p&gt;剑指Offer中问题10的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]斐波那契数列</title>
+      <link>https://leoryu.github.io/sword009-fibonacci-number/</link>
+      <pubDate>Tue, 16 Jul 2019 21:40:04 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword009-fibonacci-number/</guid>
+      <description>&lt;p&gt;剑指Offer中问题9的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]旋转数组的最小数字</title>
+      <link>https://leoryu.github.io/sword008-min-in-rotate-array/</link>
+      <pubDate>Mon, 08 Jul 2019 22:50:04 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword008-min-in-rotate-array/</guid>
+      <description>&lt;p&gt;剑指Offer中问题8的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]用两个栈实现队列</title>
+      <link>https://leoryu.github.io/sword007-build-queue-with-stacks/</link>
+      <pubDate>Tue, 28 May 2019 22:50:04 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword007-build-queue-with-stacks/</guid>
+      <description>&lt;p&gt;剑指Offer中问题7的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]重建二叉树</title>
+      <link>https://leoryu.github.io/sword006-rebuild-binary-tree/</link>
+      <pubDate>Mon, 27 May 2019 22:28:04 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword006-rebuild-binary-tree/</guid>
+      <description>&lt;p&gt;剑指Offer中问题6的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]从尾到头打印链表</title>
+      <link>https://leoryu.github.io/sword005-print-from-tail-to-head/</link>
+      <pubDate>Sun, 12 May 2019 22:18:39 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword005-print-from-tail-to-head/</guid>
+      <description>&lt;p&gt;剑指Offer中问题5的go实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]替换空格</title>
+      <link>https://leoryu.github.io/sword004-replace-space/</link>
+      <pubDate>Sat, 27 Apr 2019 22:03:01 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword004-replace-space/</guid>
+      <description>&lt;p&gt;剑指Offer中问题4的go实现&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Go的算法实现]二维数组中的查找</title>
+      <link>https://leoryu.github.io/sword003-find-in-2darray/</link>
+      <pubDate>Tue, 16 Apr 2019 19:45:48 +0800</pubDate>
+      
+      <guid>https://leoryu.github.io/sword003-find-in-2darray/</guid>
+      <description>&lt;p&gt;剑指Offer中问题3的go实现&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
